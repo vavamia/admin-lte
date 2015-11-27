@@ -23,10 +23,9 @@
     "require": {
         "dmstr/yii2-adminlte-asset": "2.*"
     },
-    "extra": {
-        "bootstrap": "vavamia\\admin-lte",
-        "tutu/adapter-anextour": {
-            "name": "admin-lte"
-        }
+    "autoload": {
+      "psr-4": {
+        "vavamia\\admin-lte\\": ""
+      }
     }
 }
