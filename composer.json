@@ -1,0 +1,32 @@
+{
+    "name": "vavamia/admin-lte",
+    "description": "My test package",
+    "license": "MIT",
+    "type": "yii2-extension",
+    "keywords": [
+        "yii2"
+    ],
+    "version": "0.0.1",
+    "authors": [
+        {
+            "name": "admin-lte",
+            "email": "test@test.no"
+        }
+    ],
+    "minimum-stability": "dev",
+    "repositories": [
+        {
+            "type": "git",
+            "url": "git@github.com:vavamia/admin-lte.git"
+        }
+    ],
+    "require": {
+        "dmstr/yii2-adminlte-asset": "2.*"
+    },
+    "extra": {
+        "bootstrap": "vavamia\\admin-lte",
+        "tutu/adapter-anextour": {
+            "name": "admin-lte"
+        }
+    }
+}
